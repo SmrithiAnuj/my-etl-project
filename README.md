@@ -54,7 +54,7 @@ Daily high-low differences for better insights.
 
 ## Screenshots
 ### Tableau Dashboard
-![Tableau Dashboard](./dashboard_stocks_page-0001.jpg)
+![Tableau Dashboard](./dashboard_stocks.jpg)
 
 
 ### Acknowledgments
