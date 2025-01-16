@@ -4,8 +4,12 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 - Extracting and transforming raw data using Python.
 - Loading the data into Snowflake for analysis.
 - Visualizing insights using a Tableau dashboard.
-## Project Structure
-/my-etl-project ├── /etl │ ├── etl_process.py # Python script for ETL process ├── /snowflake │ ├── create_tables.sql # SQL script to create tables │ ├── data_modeling.sql # SQL script for data modeling ├── /data │ ├── all_stocks_5_years.csv.zip # Compressed dataset used for the pipeline ├── /dashboard │ ├── dashboard_screenshot.png # Screenshot of the Tableau dashboard │ ├── tableau_dashboard_link.txt # Link to the live Tableau dashboard ├── README.md # Project documentation
+
+## Tools and Technologies Used
+- **Python**: For extracting, transforming, and cleaning the dataset.
+- **Snowflake**: For data storage and SQL-based data modeling.
+- **Tableau**: For creating interactive data visualizations.
+- **GitHub**: For version control and project hosting.
 
 ## How to Run the Project
 Follow these steps to set up and run the project:
@@ -47,6 +51,11 @@ The Tableau dashboard provides:
 Monthly average stock volumes.
 Top 5 stocks with the highest cumulative returns.
 Daily high-low differences for better insights.
+
+## Screenshots
+### Tableau Dashboard
+![Tableau Dashboard](./dashboard_stocks_page-0001.jpg)
+
 
 ### Acknowledgments
 Snowflake for providing a powerful cloud-based database solution.
